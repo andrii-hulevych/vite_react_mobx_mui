@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
 		"paths": {
-			"modules/*": ["./src/modules/*"]
+			"modules/*": ["./src/modules/*"],
+			"theme": ["./src/theme"]
 		},
 
 		"target": "es2023",
