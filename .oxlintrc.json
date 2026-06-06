@@ -1,0 +1,12 @@
+{
+	"$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/crates/oxc_linter/src/utils/schema.json",
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"plugins": ["react", "react-hooks", "typescript"],
+	"categories": {
+		"correctness": "error"
+	},
+	"ignorePatterns": ["dist", "node_modules"]
+}
