@@ -2,6 +2,8 @@
 	"compilerOptions": {
 		"paths": {
 			"modules/*": ["./src/modules/*"],
+			"locales/*": ["./src/locales/*"],
+			"hooks/*": ["./src/hooks/*"],
 			"theme": ["./src/theme"]
 		},
 

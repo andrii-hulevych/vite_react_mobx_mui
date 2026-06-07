@@ -1,15 +1,20 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import { I18nextProvider } from 'react-i18next';
 import { ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
+
 import { App } from 'modules/App';
+import { instance } from 'locales/instance';
 import theme from 'theme';
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
-		<ThemeProvider theme={theme} defaultMode='system'>
-			<CssBaseline />
-			<App />
-		</ThemeProvider>
+		<I18nextProvider i18n={instance}>
+			<ThemeProvider theme={theme} defaultMode='system'>
+				<CssBaseline />
+				<App />
+			</ThemeProvider>
+		</I18nextProvider>
 	</StrictMode>,
 );

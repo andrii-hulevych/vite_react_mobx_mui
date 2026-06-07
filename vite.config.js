@@ -7,6 +7,8 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			modules: path.resolve(__dirname, 'src/modules'),
+			locales: path.resolve(__dirname, 'src/locales'),
+			hooks: path.resolve(__dirname, 'src/hooks'),
 			theme: path.resolve(__dirname, 'src/theme'),
 		},
 	},
