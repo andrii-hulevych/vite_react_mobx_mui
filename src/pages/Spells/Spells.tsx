@@ -1,15 +1,14 @@
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 import { useTranslation } from 'hooks/useTranslation';
 
-import { Container } from './styled';
-
-export const App = () => {
+export const Spells = () => {
 	const { t } = useTranslation();
 
 	return (
-		<Container>
-			<Typography>{t('Hello world!')}</Typography>
-		</Container>
+		<Box>
+			<Typography>{t('Spells')}</Typography>
+		</Box>
 	);
 };

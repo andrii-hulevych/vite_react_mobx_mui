@@ -1,9 +1,11 @@
 {
 	"compilerOptions": {
 		"paths": {
-			"modules/*": ["./src/modules/*"],
+			"pages/*": ["./src/pages/*"],
+			"components/*": ["./src/components/*"],
 			"locales/*": ["./src/locales/*"],
 			"hooks/*": ["./src/hooks/*"],
+			"router/*": ["./src/router/*"],
 			"theme": ["./src/theme"]
 		},
 
